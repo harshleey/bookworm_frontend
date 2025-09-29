@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --thm-black: #000000;
+  --thm-white: #ffffff;
+  --thm-dark-gray: #3d3e3e;
+  --thm-light-gray: #c7c7c7;
+  --thm-button-gray: #d7d7d7;
+  --thm-placeholder-gray: #727374;
+  --thm-tab-gray: #e3e3e3;
+
+  --thm-success: #06a561;
+  --thm-success-light: #c4f8e2;
+  --thm-cyan: #cdf4f7;
+  --thm-warning: #e4c31c;
+  --thm-warning-light: rgba(248, 233, 160, 0.5);
+  --thm-danger: #d92d20;
+  --thm-info-light: #eff8ff;
+  --thm-info: #175cd3;
+}
+
+* {
+  padding: auto;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: var(--thm-white);
+  overflow: hidden;
+}
+
+.small__black__logo,
+.small__white__logo {
+  width: 50px;
+  height: 60px;
+}
+
+.big__white__logo {
+  width: 100px;
+  height: 80px;
+}
+
+.btn {
+  padding: 0.9rem 4rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.black__btn {
+  width: 65%;
+  margin: 2rem auto 0 auto;
+  border: none;
+  outline: none;
+  color: var(--thm-white);
+  background-color: var(--thm-black);
+}
+
+.transparent__btn {
+  width: 50%;
+  border: 1px solid var(--thm-white);
+}
