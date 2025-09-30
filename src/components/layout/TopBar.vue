@@ -31,8 +31,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.2);
   z-index: 999;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.479);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 .icon {
@@ -48,12 +51,6 @@
 
 .topbar__admin .user__role {
   font-size: 0.8rem;
-}
-
-.border {
-  height: 60px;
-  width: 4px;
-  background-color: #000;
 }
 
 .topbar span {

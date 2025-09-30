@@ -52,8 +52,9 @@ img {
   height: 60px;
 }
 
-.big__white__logo {
-  width: 100px;
+.big__white__logo,
+.big__black__logo {
+  width: 90px;
   height: 80px;
 }
 
@@ -76,4 +77,23 @@ img {
 .transparent__btn {
   width: 50%;
   border: 1px solid var(--thm-white);
+}
+
+.border {
+  height: 60px;
+  width: 3px;
+  background-color: var(--thm-black);
+}
+
+.gray__bg {
+  background-color: var(--thm-dark-gray);
+}
+
+.black__bg {
+  background-color: var(--thm-black);
+}
+
+.gray__icon {
+  width: 60px;
+  height: 60px;
 }
